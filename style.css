@@ -1,0 +1,108 @@
+
+.header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    font-weight:bolder;
+    height: 15vh;
+    width:100vw;
+    background:#D4D6CF;
+    overflow: hidden;
+}
+
+.break{
+    flex-basis:100%;
+}
+
+
+#lander{
+    background: color url("piercing.jpeg.crdownload");
+    text-align:center;
+    backdrop-filter: opacity(.5);
+}
+
+#master{
+    font-family: 'Oxygen', sans-serif;
+    margin:0px;
+}
+
+.hyperlink{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight:bold;
+
+}
+
+.navlist {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:larger;
+    padding-inline: 50px;
+  }
+
+  a:hover {
+    text-decoration: underline dotted whitesmoke;
+    color:whitesmoke;
+
+  }
+
+  .hello{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 105vh;
+      width:100vw;
+      background-color:#03254c;
+      font-size:x-large;
+      color:rgba(245, 245, 245, 0.753);
+  }
+
+
+
+  .headshot{
+      height: 40vh;
+      justify-content:flex-start;
+      filter: grayscale(100%);
+      box-shadow: 0 0 2px 1px rgba(195, 207, 211, 0.603);
+      opacity:0.9;
+  }
+
+  .aboutme{
+      width: 50vw;
+
+  }
+
+  .lander{
+      display:block;
+      text-align: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./crater_lake.jpeg);
+      height: 105vh;
+      width:100vw;
+      background-size:cover;
+      float:left;
+      clear:none;
+  }
+
+  .intro{
+      color:whitesmoke;
+      font-size: 10vh;
+      font-weight:bolder;
+      align-self: center;
+      padding-bottom: 100px;
+      padding-top:250px;
+  }
+  .top_pic{
+      width: 100vw;
+      height: 5vh;
+      background-size:cover;
+      float:left;
+      clear:none;
+  }
+
+  .big{
+      font-size:xx-large;
+      font-weight: bold;
+  }
