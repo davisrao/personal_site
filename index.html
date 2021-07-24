@@ -4,34 +4,75 @@
   <meta charset="UTF-8">
   <title>Davis Rao </title>
   <link rel="stylesheet" href="style.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300;500;700&family=Playfair+Display+SC:wght@400;700;900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 
-<container id="master">
-<div>
+<container id="master" class="container">
+<div">
   <img class="top_pic" src="colors.png" alt="">
 </div>
 
 <div class="lander">
   <div class="intro">Davis Rao</div>
   <div id="navbar">
-    <a href="#" class="navlist hyperlink">about</a>
-    <a href="#" class="navlist hyperlink">contact</a>
-    <a href="#" class="navlist hyperlink">fun</a>
+    <a href="#" class="navlist hyperlink" id="aboutButton">about</a>
+    <a href="#" class="navlist hyperlink" id="contactButton">contact</a>
+    <a href="#" class="navlist hyperlink" id="funButton">fun</a>
   </div>
 
 </div>
 
-<div class="hello">
-  <img class="headshot" src="mypic.png" alt="Whoops, this is supposed to be a pic of me....">
-  <p class="aboutme"><span class="big">Heyo!</span><br> <br> I'm Davis. I'm a former management consultant, venture investor and startup operator turning software engineer. I love learning new things and thinking about how to make the world a better place. If I'm not at my computer, I'm probably hanging out with the people I love (including our pup Merlin!) or exploring the trails of Oregon.
+<div class="row hello col-12 p-0 m-0" id="about_me_section">
+  <img class="headshot col-12 col-md-6" src="mypic.png" alt="Whoops, this is supposed to be a pic of me....">
+  <p class="aboutme col-12 col-md-6"><span class="big">Hello!</span><br> <br> I'm Davis. I'm a former management consultant, venture investor and startup operator turning software engineer. 
+    <br>
+    <br>
+    I love learning new things and thinking about how to make the world a better place. If I'm not at my computer, I'm probably hanging out with the people I love (including our pup Merlin!) or exploring the trails of Oregon.
    <br> <br> Let's connect or take a peek at <a href="Resume.pdf" download class='hyperlink'>my resume here!</a>
   </p>
 </div>
 
 
+<div id="collage" class="row border-top border-bottom border-dark">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 text-center">
+    <img src="barn.png" class="shadow-1-strong w-75 my-3 rounded"/>
+    <img src="bread.png" class="shadow-1-strong w-100 rounded ml-2"/>
+  </div>
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 text-center" >
+    <img src="mcloff.png" class="shadow-1-strong w-100 my-3 rounded"/>
+    <img src="lake.png" class="shadow-1-strong w-75 my-3 rounded"/>
+  </div>
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 text-center" >
+    <img src="tilden.png" class="shadow-1-strong w-75 my-3 pr-2 rounded"/>
+    <img src="falls.png" class="shadow-1-strong w-75 my-3 rounded"/>
+  </div>
+</div>
+
+
+
+
+<div class="row contact" >
+  <p class="col-12 col-md-6"><span class="big">Get in touch</span>
+    <br> <br> 
+    davisrao1@gmail.com
+    <br> <br> 
+    <a href="https://www.linkedin.com/in/davis-rao-445347a3" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-github"></a>
+   </p>
+
+  <div class="col-12 col-md-6 contactimage"></div>
+</div>
+
+<button id="back-to-top" type="button" class="btn btn-light">Top</button>
+
+</div>
+</div>
+<script src="myscript.js"></script>
 </container>
 </html>

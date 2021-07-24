@@ -12,10 +12,6 @@
     overflow: hidden;
 }
 
-.break{
-    flex-basis:100%;
-}
-
 
 #lander{
     background: color url("piercing.jpeg.crdownload");
@@ -25,14 +21,19 @@
 
 #master{
     font-family: 'Oxygen', sans-serif;
-    margin:0px;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .hyperlink{
     color: whitesmoke;
     text-decoration: none;
     font-weight:bold;
+}
 
+.hyperlink:hover{
+    text-decoration: underline dotted whitesmoke;
+    color:whitesmoke;
 }
 
 .navlist {
@@ -43,37 +44,27 @@
     padding-inline: 50px;
   }
 
-  a:hover {
+  .navlist:hover {
     text-decoration: underline dotted whitesmoke;
     color:whitesmoke;
-
   }
 
   .hello{
-      display:flex;
-      justify-content: space-around;
+      min-height: 100vh !important;
       align-items: center;
-      height: 105vh;
-      width:100vw;
-      background-color:#03254c;
+      background-color:#434E5C;
       font-size:x-large;
       color:rgba(245, 245, 245, 0.753);
+      margin:0px;
   }
-
 
 
   .headshot{
-      height: 40vh;
       justify-content:flex-start;
       filter: grayscale(100%);
-      box-shadow: 0 0 2px 1px rgba(195, 207, 211, 0.603);
       opacity:0.9;
   }
 
-  .aboutme{
-      width: 50vw;
-
-  }
 
   .lander{
       display:block;
@@ -105,4 +96,73 @@
   .big{
       font-size:xx-large;
       font-weight: bold;
+  }
+
+.fa {
+    font-size: 70px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+    padding:5px;
+  }
+  
+.contact{
+    background-color:whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    height:40vh;
+    padding:0px;
+}
+.contact p{
+    text-align:center;
+}
+
+.contactimage{
+    background: url(seatac.png);
+    justify-content:flex-end;
+    filter: grayscale(100%);
+    opacity:0.9;
+    padding:0px;
+    background-size: cover;
+    height:40vh;
+    overflow: hidden;
+}
+
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-github {
+    background: whitesmoke;
+    color: black;
+  }
+
+  .fa-linkedin {
+    background: whitesmoke;
+    color: black;
+  }
+
+  #collage{
+    background-color: #0b1d2b
+  }
+
+
+  #back-to-top{
+      display:none;
+      position:fixed;
+      bottom:20px;
+      right: 30px;
+      background-color: whitesmoke;
+      border-radius:25%;
+      border:1px solid black;
+  }
+
+  #back-to-top:hover{
+      background-color:darkgrey;
+  }
+
+  html { 
+    scroll-behavior: smooth; 
   }
