@@ -7,17 +7,10 @@
     font-size:xx-large;
     font-weight:bolder;
     height: 15vh;
-    width:100vw;
     background:#D4D6CF;
     overflow: hidden;
 }
 
-
-#lander{
-    background: color url("piercing.jpeg.crdownload");
-    text-align:center;
-    backdrop-filter: opacity(.5);
-}
 
 #master{
     font-family: 'Oxygen', sans-serif;
@@ -71,7 +64,6 @@
       text-align: center;
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./crater_lake.jpeg);
       height: 105vh;
-      width:100vw;
       background-size:cover;
       float:left;
       clear:none;
@@ -86,7 +78,6 @@
       padding-top:250px;
   }
   .top_pic{
-      width: 100vw;
       height: 5vh;
       background-size:cover;
       float:left;
@@ -94,7 +85,7 @@
   }
 
   .big{
-      font-size:xx-large;
+      font-size:50px;
       font-weight: bold;
   }
 
@@ -113,6 +104,7 @@
     align-items: center;
     height: 100vh;
     padding:0px;
+    color:rgba(36, 37, 42, 1);
 }
 .contact p{
     text-align:center;
@@ -132,6 +124,7 @@
 
   .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
   }
 
   .fa-github {
@@ -145,7 +138,7 @@
   }
 
   #funSection{
-    background-color: #0b1d2b;
+    background-color: #434E5C;
   }
 
 
@@ -167,8 +160,9 @@
     scroll-behavior: smooth; 
   }
 
-  .englarged{
+  .enlarged{
       font-size:xx-large;
+      color:rgba(36, 37, 42, 1);
   }
 
   #foot{
@@ -178,3 +172,13 @@
       padding: 3vh;
       background-color:whitesmoke
   }
+
+  a.fa.fa-github::before{
+      font-size:40px;
+      color:rgba(36, 37, 42, 1);
+  }
+
+  a.fa.fa-linkedin::before{
+    font-size:40px;
+    color: rgba(36, 37, 42, 1);
+}
