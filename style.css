@@ -1,14 +1,35 @@
+@media screen and (max-width: 767px) {
+    .navlist{
+     font-size:100px;
+     display:block;
+    }
+
+    .hello{
+        text-align: center;
+    }
+    .contactimage{
+        float:left;
+        clear:none;
+    }
+    #funSection{
+        padding:10px;
+    }
+    .aboutme{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .headshot{
+        padding-top:15px;
+    }
+}
+
 
 .header{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
     font-size:xx-large;
     font-weight:bolder;
     height: 15vh;
     background:#D4D6CF;
-    overflow: hidden;
+
 }
 
 
@@ -73,7 +94,7 @@
       color:whitesmoke;
       font-size: 10vh;
       font-weight:bolder;
-      align-self: center;
+
       padding-bottom: 100px;
       padding-top:250px;
   }
@@ -92,7 +113,6 @@
 .fa {
     font-size: 70px;
     width: 70px;
-    text-align: center;
     text-decoration: none;
     border-radius:50%;
     padding:5px;
@@ -100,25 +120,21 @@
   
 .contact{
     background-color:whitesmoke;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     height: 100vh;
-    padding:0px;
     color:rgba(36, 37, 42, 1);
+    margin:0;
 }
 .contact p{
     text-align:center;
 }
 
 .contactimage{
-    background: url(seatac.png);
-    justify-content:flex-end;
     filter: grayscale(100%);
     opacity:0.9;
     padding:0px;
-    background-size: cover;
-    height:40vh;
-    overflow: hidden;
+    width:50vw;
 }
 
 
