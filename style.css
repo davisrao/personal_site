@@ -1,3 +1,9 @@
+@media screen and (max-width: 650px) {
+    .navlist{
+        padding: 0px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .navlist{
      font-size:100px;
@@ -35,7 +41,9 @@
     }
 }​
 
-
+html { 
+    scroll-behavior: smooth; 
+  }
 
 .header{
     font-size:xx-large;
@@ -44,7 +52,6 @@
     background:#D4D6CF;
 
 }
-
 
 #master{
     font-family: 'Oxygen', sans-serif;
@@ -65,15 +72,8 @@
 
 .navlist {
     color: rgba(245, 245, 245, 0.753);
-    text-decoration: none;
-    font-weight:bold;
-    font-size:x-large;
+    font-size:xx-large;
     padding-inline: 50px;
-  }
-
-  .navlist:hover {
-    text-decoration: underline dotted whitesmoke;
-    color:whitesmoke;
   }
 
   .hello{
@@ -123,21 +123,16 @@
       font-weight: bold;
   }
 
-.fa {
-    font-size: 70px;
-    width: 70px;
-    text-decoration: none;
-    border-radius:50%;
-    padding:5px;
-  }
+
   
 .contact{
-    background-color:whitesmoke;
+    background-color:darkgray;
     align-items: center;
     height: 100vh;
     color:rgba(36, 37, 42, 1);
     margin:0;
 }
+
 .contact p{
     text-align:center;
 }
@@ -145,27 +140,26 @@
 .contactimage{
     filter: grayscale(100%);
     opacity:0.9;
-
     width:50vw;
     align-items:center;
-
 }
 
+.fa {
+    font-size: 70px;
+    width: 70px;
+    text-decoration: none;
+    border-radius:50%;
+    padding:5px;
+    background: whitesmoke;
+    color: black;
+  }
 
   .fa:hover {
     opacity: 0.7;
     text-decoration: none;
   }
 
-  .fa-github {
-    background: whitesmoke;
-    color: black;
-  }
 
-  .fa-linkedin {
-    background: whitesmoke;
-    color: black;
-  }
 
   #funSection{
     background-color: #434E5C;
@@ -183,11 +177,7 @@
   }
 
   #back-to-top:hover{
-      background-color:rgb(51, 51, 51);
-  }
-
-  html { 
-    scroll-behavior: smooth; 
+      background-color:whitesmoke;
   }
 
   .enlarged{
