@@ -2,6 +2,11 @@
     .navlist{
         padding: 0px;
     }
+    .intro{
+        padding-bottom: 100px;
+        padding-top:100px !important;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -29,6 +34,11 @@
     .headshot{
         padding-top:15px;
     }
+    .intro{
+        padding-bottom: 100px;
+        padding-top:100px !important;
+    }
+
 }
 
 
@@ -105,9 +115,8 @@
       color:whitesmoke;
       font-size: 10vh;
       font-weight:bolder;
-
       padding-bottom: 100px;
-      padding-top:250px;
+      padding-top:150px;
   }
   .top_pic{
       height: 5vh;
