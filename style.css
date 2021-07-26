@@ -178,13 +178,15 @@
       position:fixed;
       bottom:20px;
       right: 30px;
-      background-color: darkgrey;
+      background-color: black;
       border-radius:25%;
       border:none;
+      color:whitesmoke;
   }
 
   #back-to-top:hover{
       background-color:whitesmoke;
+      color:black;
   }
 
   .enlarged{
