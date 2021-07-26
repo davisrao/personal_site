@@ -10,7 +10,9 @@
     .contactimage{
         float:left;
         clear:none;
+        padding-top:0;
     }
+
     #funSection{
         padding:10px;
     }
@@ -22,6 +24,17 @@
         padding-top:15px;
     }
 }
+
+
+@media (min-width:994px) {
+    .contactimage{
+        padding-top:20vh;;
+    }
+    .contact p{
+        padding-top:20vh;
+    }
+}​
+
 
 
 .header{
@@ -120,7 +133,6 @@
   
 .contact{
     background-color:whitesmoke;
-    justify-content: flex-end;
     align-items: center;
     height: 100vh;
     color:rgba(36, 37, 42, 1);
@@ -133,8 +145,10 @@
 .contactimage{
     filter: grayscale(100%);
     opacity:0.9;
-    padding:0px;
+
     width:50vw;
+    align-items:center;
+
 }
 
 
